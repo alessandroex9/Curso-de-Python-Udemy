@@ -17,8 +17,8 @@ def multiplicar(*args):
 def par_ou_impar(x):
     if x % 2 == 0:
         return 'Par'
-    else:
-        return 'Ímpar'
+   
+    return 'Ímpar'
     
 multiplicacao = multiplicar(1, 2, 3, 4, 5)
 print("O resultado da multiplicação é: ", multiplicacao)

@@ -35,8 +35,8 @@ def deve_ser_int_ou_float(n):
     if not isinstance(n, (float, int)):
         raise TypeError(
             f'{n} deve ser int ou float'
-            f'{tipo_n} enviado
-            )
+            f'{tipo_n} enviado')
+        
     raise TypeError(
         
     ) 

@@ -1,8 +1,6 @@
-from sys import path
-from aula157_package.modulo import soma_do_modulo
-print(*path, sep='\n')
+from aula157_package.modulo import soma_do_modulo, fala_oi
+from aula157_package import modulo
 
 print(soma_do_modulo(9, 1))
 
-
-from aula157_package import modulo
+fala_oi()

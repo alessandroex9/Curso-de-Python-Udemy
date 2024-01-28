@@ -9,6 +9,7 @@ desfazer = [] -> Reazer ['caminhar', 'fazer café']
 refazer = todo ['fazer café']
 refazer = todo ['fazer café', 'caminhar']
 """
+import os
 
 def listar(tarefas):
     if not tarefas:
@@ -50,19 +51,31 @@ def adicionar(tarefa, tarefas):
     tarefas.append(tarefa)
     print()
 
-tarefa = []
+tarefas = []
 tarefas_refazer = []
 
 while True:
-    print('Comandos: listar, desfazer                                                                                   ')
-    tarefa = input('Digite uma tarefa ou comando: listar, desazer e refazer')
+    print('Comandos: listar, desfazer e refazer')
+    tarefa = input('Digite uma tarefa ou comando: ')
 
     if tarefa == 'listar':
-
+        listar(tarefas)
+        continue
 
     elif tarefa == 'desfazer':
-                                                                                                                                                                                                                                                                                                                            
+        desfazer(tarefas, tarefas_refazer)
+        listar(tarefas)
+        continue
+
     elif tarefa == 'refazer':
+        refazer(tarefas, tarefas_refazer)
+        listar(tarefas)
+        continue
 
+    elif tarefa == 'clear':
+        os.system('clear')
+        continue
     else:
-
+        adicionar(tarefa, tarefas)
+        listar(tarefas)
+        continue

@@ -2,9 +2,9 @@
     <img src="imagens/GitHub com fundo.png"/>
 </p>
 
-# Curso de HTML5 e CSS3 Do CursoemVídeo
+# Curso de Python do Básico ao Avançado
 # Descrição do Projeto
-Curso de Python 3 do Básico ao avançado. Com Exercícios, Aulas e Projetos.  
+Curso de Python 3 do Básico ao Avançado. Com Exercícios, Aulas e Projetos.  
 <p aling='center'>
     <img src="imagens/em desenvolvimento.png"/>
 </p>

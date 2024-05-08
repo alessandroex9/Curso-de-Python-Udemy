@@ -4,7 +4,8 @@
 
 # Curso de Python do Básico ao Avançado
 # Descrição do Projeto
-Curso de Python 3 do Básico ao Avançado. Com Exercícios, Aulas e Projetos.  
+Curso de Python 3 do Básico ao Avançado. Com Exercícios, Aulas e Projetos.
+Curso com o professor Luiz Otávio Miranda.
 <p aling='center'>
     <img src="imagens/em desenvolvimento.png"/>
 </p>

@@ -21,5 +21,5 @@ Curso com o professor Luiz Otávio Miranda.
 
 <a href="https://github.com/alessandroex9/Curso-de-Python-Udemy/tree/main/Projetos/Um%20programa%20para%20adicionar%20ver%20e%20apagar%20itens"> Um Programa para Adicionar, Ver e Apagar Itens
 
-# Ferramentas utilizadas
+# Ferramentas Utilizadas
 <img src="imagens/python-3-logo.jpg"/>
